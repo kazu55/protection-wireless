@@ -12,7 +12,7 @@ while true do
     print("recived!")
     comp.beep(2000)
     sleep(0)
-  else
+  elseif pressed == 115 then--(pressedから)もしSキーを押したら
     return
   end
   sleep(0)
